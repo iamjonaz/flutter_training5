@@ -1,11 +1,13 @@
-import 'package:flutter/material.dart';
-
-class Kucing {
-  Kucing(this.nama); // constructor
-  final String nama; // field (data milik objek)
+class Mahasiswa {
+  Mahasiswa(this.nama, this.umur, this.behavior); // constructor
+  final String nama; // field (nama)
+  final int umur; // field (umur)
+  final String behavior; // field (perilaku)
 }
 
 void main() {
-  final k = Kucing('Persia'); // membuat objek dari class Kucing
-  print(k.nama); // memanggil field nama dari objek k
+  final x = Mahasiswa('Arjuna Meiureksa', 20, 'Baik?');
+  print(x.nama);
+  print(x.umur);
+  print(x.behavior);
 }
