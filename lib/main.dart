@@ -6,7 +6,7 @@ class Mahasiswa {
 }
 
 void main() {
-  final x = Mahasiswa('Arjuna Meiureksa', 20, 'Baik?');
+  final x = Mahasiswa('Arjuna Meiureksa', 20, 'Baik');
   print(x.nama);
   print(x.umur);
   print(x.behavior);
